@@ -429,13 +429,17 @@
         "uuid": "337187c2-ce49-4477-82f4-42e83a825aec"
       }
     ],
-    "used_designators": "R1,J1-4,F1-2,#PWR1-24",
+    "used_designators": "R1-7,J1-8,F1-2,#PWR1-64,U1-3,C1-17,Y1,SW1-3",
     "variants": []
   },
   "sheets": [
     [
       "337187c2-ce49-4477-82f4-42e83a825aec",
       "Oculink_Dock"
+    ],
+    [
+      "8da0fd7f-2f9f-4dd1-996b-0f12ba371fcc",
+      "DevBoard"
     ]
   ],
   "text_variables": {},
