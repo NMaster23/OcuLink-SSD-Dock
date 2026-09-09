@@ -3270,6 +3270,30 @@
 		(color 0 0 0 0)
 		(uuid "fa931167-7606-4e4e-8969-e3a0f99cc58f")
 	)
+	(no_connect
+		(at 217.17 121.92)
+		(uuid "2dbd3343-77a7-479b-bb84-72eec3d5833c")
+	)
+	(no_connect
+		(at 217.17 127)
+		(uuid "2fa9c09f-ee55-4f24-a7d6-8d389dc19d31")
+	)
+	(no_connect
+		(at 217.17 119.38)
+		(uuid "3ac68fc2-e33a-42e0-bc0e-9cab774e4515")
+	)
+	(no_connect
+		(at 217.17 129.54)
+		(uuid "da603ba3-9c45-4c24-8174-f2092434d95b")
+	)
+	(no_connect
+		(at 217.17 116.84)
+		(uuid "e152ebbd-23cf-4232-a010-97579013649e")
+	)
+	(no_connect
+		(at 217.17 124.46)
+		(uuid "ff82d6b2-acd9-48b8-8c9b-2b99d1ef9a24")
+	)
 	(wire
 		(pts
 			(xy 129.54 80.01) (xy 142.24 80.01)
@@ -3690,30 +3714,6 @@
 		)
 		(uuid "fab4a3c6-c00b-4749-ae0c-adb0a950d110")
 	)
-	(global_label "G16"
-		(shape bidirectional)
-		(at 217.17 132.08 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "01055cad-42e1-4792-a415-bb3412ad2c10")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.3845 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "Q_SD0"
 		(shape input)
 		(at 46.99 160.02 180)
@@ -3879,30 +3879,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "G14"
-		(shape bidirectional)
-		(at 217.17 127 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1b31e3c3-c1cd-43bf-8b9a-729dbbd38e7b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.3845 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -4362,54 +4338,6 @@
 			)
 		)
 	)
-	(global_label "G12"
-		(shape bidirectional)
-		(at 217.17 121.92 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "665d24ca-851d-4bd6-a19d-0d857acdf23c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.3845 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "G1"
-		(shape bidirectional)
-		(at 189.23 119.38 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6745b486-eada-4137-8f66-97f2be165d45")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.654 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "G14"
 		(shape bidirectional)
 		(at 91.44 76.2 0)
@@ -4431,30 +4359,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "G11"
-		(shape bidirectional)
-		(at 217.17 119.38 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "680a9474-1dc6-463c-a957-fb88fa45cb8b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.3845 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -4527,30 +4431,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "G2"
-		(shape bidirectional)
-		(at 189.23 121.92 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6d4e6e6b-e985-4b6a-87a9-38588f9375c0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.654 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -4722,30 +4602,6 @@
 			)
 		)
 	)
-	(global_label "G4"
-		(shape bidirectional)
-		(at 189.23 127 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "872996f5-0171-487a-818d-fad5b0cb6831")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.654 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "Q_SD1"
 		(shape output)
 		(at 40.64 81.28 180)
@@ -4759,30 +4615,6 @@
 		(uuid "892ccfbf-96da-4859-b9a1-c1151cbaddcc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 31.6677 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "G17"
-		(shape bidirectional)
-		(at 217.17 134.62 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8a34fc5a-d2aa-4fa0-adfc-50876d8143d3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.3845 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4964,7 +4796,7 @@
 	)
 	(global_label "G8"
 		(shape bidirectional)
-		(at 189.23 137.16 180)
+		(at 217.17 134.62 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4974,7 +4806,7 @@
 		)
 		(uuid "a247b221-eda1-45a9-b940-07f0b7166c3b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.654 137.16 0)
+			(at 210.594 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5082,30 +4914,6 @@
 			)
 		)
 	)
-	(global_label "G6"
-		(shape bidirectional)
-		(at 189.23 132.08 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a7f8f558-e7fc-4cdd-b9dc-980dffb1dd78")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.654 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "G13"
 		(shape bidirectional)
 		(at 91.44 73.66 0)
@@ -5191,78 +4999,6 @@
 		(uuid "bd076808-a842-4102-8196-b1557fb39b7c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 209.3845 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "G0"
-		(shape bidirectional)
-		(at 189.23 116.84 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c0e33e64-b4d5-48d1-a414-6e44fce07c8d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.654 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "G13"
-		(shape bidirectional)
-		(at 217.17 124.46 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c6efed4b-d050-4cf4-879c-64e4b70ba5eb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.3845 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "G9"
-		(shape bidirectional)
-		(at 189.23 139.7 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c87e179c-e59c-4240-864e-e93264c2049b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.654 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5466,57 +5202,9 @@
 			)
 		)
 	)
-	(global_label "G5"
-		(shape bidirectional)
-		(at 189.23 129.54 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e60d6870-a5b4-4e4b-a3da-0f4657f7cdee")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.654 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "G10"
-		(shape bidirectional)
-		(at 217.17 116.84 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e76f0e39-c56e-4f56-b8ec-0c3c0fe44442")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.3845 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "G7"
 		(shape bidirectional)
-		(at 189.23 134.62 180)
+		(at 217.17 132.08 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5526,7 +5214,7 @@
 		)
 		(uuid "e79a4337-bf8c-428e-809c-f353b60dcd6e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.654 134.62 0)
+			(at 210.594 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5583,30 +5271,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "G15"
-		(shape bidirectional)
-		(at 217.17 129.54 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ed5a19c8-e30b-4204-84ba-daf4bd6d8744")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.3845 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -5682,30 +5346,6 @@
 			)
 		)
 	)
-	(global_label "G3"
-		(shape bidirectional)
-		(at 189.23 124.46 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fe0a73e9-da4f-446e-9eb5-9ebea02f76ed")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.654 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 209.55 153.67 0)
@@ -5718,7 +5358,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06269180-9984-47f2-aeb1-7c58d97a706b")
-		(property "Reference" "J8"
+		(property "Reference" "J6"
 			(at 212.09 152.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5785,7 +5425,7 @@
 		(instances
 			(project "Oculink_Dock"
 				(path "/337187c2-ce49-4477-82f4-42e83a825aec/8da0fd7f-2f9f-4dd1-996b-0f12ba371fcc"
-					(reference "J8")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -5803,7 +5443,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07a5105e-d4b4-43bd-9dd1-fa5cb1fe0200")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR067"
 			(at 66.04 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -5863,7 +5503,7 @@
 		(instances
 			(project "Oculink_Dock"
 				(path "/337187c2-ce49-4477-82f4-42e83a825aec/8da0fd7f-2f9f-4dd1-996b-0f12ba371fcc"
-					(reference "#PWR01")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -5961,7 +5601,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ba47f81-80c9-4ac4-aa6d-8c5dfa80be1d")
-		(property "Reference" "SW1"
+		(property "Reference" "SW4"
 			(at 26.67 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6023,7 +5663,7 @@
 		(instances
 			(project "Oculink_Dock"
 				(path "/337187c2-ce49-4477-82f4-42e83a825aec/8da0fd7f-2f9f-4dd1-996b-0f12ba371fcc"
-					(reference "SW1")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -6041,7 +5681,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11257fcd-bb98-4141-a841-ddbc57af5d7a")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR072"
 			(at 148.59 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -6102,7 +5742,7 @@
 		(instances
 			(project "Oculink_Dock"
 				(path "/337187c2-ce49-4477-82f4-42e83a825aec/8da0fd7f-2f9f-4dd1-996b-0f12ba371fcc"
-					(reference "#PWR038")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -6120,7 +5760,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "114b9c28-3bfc-4d93-926a-07b88b1cb155")
-		(property "Reference" "C10"
+		(property "Reference" "C25"
 			(at 240.03 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6184,7 +5824,7 @@
 		(instances
 			(project "Oculink_Dock"
 				(path "/337187c2-ce49-4477-82f4-42e83a825aec/8da0fd7f-2f9f-4dd1-996b-0f12ba371fcc"
-					(reference "C10")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -6202,7 +5842,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21c27247-d348-45c7-8dc7-abde5d6dd798")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR071"
 			(at 129.54 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -6262,7 +5902,7 @@
 		(instances
 			(project "Oculink_Dock"
 				(path "/337187c2-ce49-4477-82f4-42e83a825aec/8da0fd7f-2f9f-4dd1-996b-0f12ba371fcc"
-					(reference "#PWR032")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -6280,7 +5920,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22707e71-65fb-448b-99ef-f9ac0f6ab236")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR065"
 			(at 59.69 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -6340,113 +5980,7 @@
 		(instances
 			(project "Oculink_Dock"
 				(path "/337187c2-ce49-4477-82f4-42e83a825aec/8da0fd7f-2f9f-4dd1-996b-0f12ba371fcc"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x10")
-		(at 194.31 127 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "245dfc31-f5dc-435f-9fe5-5bea19dfd919")
-		(property "Reference" "J5"
-			(at 196.85 126.9999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x10"
-			(at 196.85 129.5399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.31 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 194.31 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "8"
-			(uuid "1cd33165-9231-47e5-be7e-29e3006e0f15")
-		)
-		(pin "7"
-			(uuid "4c04713e-0acc-4641-9a9b-fce06f30e594")
-		)
-		(pin "9"
-			(uuid "20ddcfbe-721f-4636-8a39-73fb421dac41")
-		)
-		(pin "10"
-			(uuid "095bb0f9-0206-4fba-a704-3ccb477eb955")
-		)
-		(pin "6"
-			(uuid "777d44ea-dd2a-47ce-856a-7e3bf4912a17")
-		)
-		(pin "3"
-			(uuid "bce87ffb-eb5d-4bd9-a99c-cc3d8dab1c22")
-		)
-		(pin "4"
-			(uuid "112ea56e-3014-44f9-a209-21fec742ecfb")
-		)
-		(pin "5"
-			(uuid "1f5b2368-c6f9-4309-bc1f-46847b9d78dc")
-		)
-		(pin "1"
-			(uuid "9504d156-0a30-4fa6-9344-747015fc2546")
-		)
-		(pin "2"
-			(uuid "f4a9d07b-1870-4b73-81b1-dceb32f9368a")
-		)
-		(instances
-			(project "Oculink_Dock"
-				(path "/337187c2-ce49-4477-82f4-42e83a825aec/8da0fd7f-2f9f-4dd1-996b-0f12ba371fcc"
-					(reference "J5")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -6464,7 +5998,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "274c4fd7-0ed4-4d7f-8410-1d955d258b2c")
-		(property "Reference" "C5"
+		(property "Reference" "C20"
 			(at 176.53 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6528,7 +6062,7 @@
 		(instances
 			(project "Oculink_Dock"
 				(path "/337187c2-ce49-4477-82f4-42e83a825aec/8da0fd7f-2f9f-4dd1-996b-0f12ba371fcc"
-					(reference "C5")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -6546,7 +6080,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "276912fc-7b34-46c9-8f76-ecae8bdc46ea")
-		(property "Reference" "C1"
+		(property "Reference" "C14"
 			(at 121.92 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6610,7 +6144,7 @@
 		(instances
 			(project "Oculink_Dock"
 				(path "/337187c2-ce49-4477-82f4-42e83a825aec/8da0fd7f-2f9f-4dd1-996b-0f12ba371fcc"
-					(reference "C1")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -6628,7 +6162,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29d48dca-66ea-4234-ad45-f7aeb23faf3c")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR073"
 			(at 198.12 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -6689,7 +6223,7 @@
 		(instances
 			(project "Oculink_Dock"
 				(path "/337187c2-ce49-4477-82f4-42e83a825aec/8da0fd7f-2f9f-4dd1-996b-0f12ba371fcc"
-					(reference "#PWR045")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -6707,7 +6241,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31e595c3-1008-468b-97fd-e10120b58485")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR061"
 			(at 15.24 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -6768,7 +6302,7 @@
 		(instances
 			(project "Oculink_Dock"
 				(path "/337187c2-ce49-4477-82f4-42e83a825aec/8da0fd7f-2f9f-4dd1-996b-0f12ba371fcc"
-					(reference "#PWR043")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -6786,7 +6320,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3883c376-110e-4beb-aabb-e76f52b85013")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR062"
 			(at 39.37 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -6846,7 +6380,7 @@
 		(instances
 			(project "Oculink_Dock"
 				(path "/337187c2-ce49-4477-82f4-42e83a825aec/8da0fd7f-2f9f-4dd1-996b-0f12ba371fcc"
-					(reference "#PWR042")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -6864,7 +6398,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c1588a4-f751-48ed-a97c-2386f5ff2c5a")
-		(property "Reference" "U1"
+		(property "Reference" "U6"
 			(at 68.1833 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7115,7 +6649,7 @@
 		(instances
 			(project "Oculink_Dock"
 				(path "/337187c2-ce49-4477-82f4-42e83a825aec/8da0fd7f-2f9f-4dd1-996b-0f12ba371fcc"
-					(reference "U1")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -7133,7 +6667,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "545d72a9-cafe-4429-a8c9-ffe77f568576")
-		(property "Reference" "C7"
+		(property "Reference" "C22"
 			(at 201.93 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7197,7 +6731,7 @@
 		(instances
 			(project "Oculink_Dock"
 				(path "/337187c2-ce49-4477-82f4-42e83a825aec/8da0fd7f-2f9f-4dd1-996b-0f12ba371fcc"
-					(reference "C7")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -7215,7 +6749,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54d06676-9919-4657-b136-8ac12284e1d0")
-		(property "Reference" "C3"
+		(property "Reference" "C18"
 			(at 146.05 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7279,7 +6813,7 @@
 		(instances
 			(project "Oculink_Dock"
 				(path "/337187c2-ce49-4477-82f4-42e83a825aec/8da0fd7f-2f9f-4dd1-996b-0f12ba371fcc"
-					(reference "C3")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -7297,7 +6831,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56fd9b0d-f8d2-403a-bdba-d7f503e7c014")
-		(property "Reference" "U3"
+		(property "Reference" "U5"
 			(at 68.58 161.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7379,7 +6913,7 @@
 		(instances
 			(project "Oculink_Dock"
 				(path "/337187c2-ce49-4477-82f4-42e83a825aec/8da0fd7f-2f9f-4dd1-996b-0f12ba371fcc"
-					(reference "U3")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -7397,7 +6931,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5cf87c5b-ab8f-4585-a949-f80fa83bb1b5")
-		(property "Reference" "R5"
+		(property "Reference" "R18"
 			(at 144.78 147.32 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7459,7 +6993,7 @@
 		(instances
 			(project "Oculink_Dock"
 				(path "/337187c2-ce49-4477-82f4-42e83a825aec/8da0fd7f-2f9f-4dd1-996b-0f12ba371fcc"
-					(reference "R5")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -7477,7 +7011,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "629409f2-7ea5-47fc-be6a-bf3c25fa4d99")
-		(property "Reference" "C9"
+		(property "Reference" "C24"
 			(at 227.33 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7541,7 +7075,7 @@
 		(instances
 			(project "Oculink_Dock"
 				(path "/337187c2-ce49-4477-82f4-42e83a825aec/8da0fd7f-2f9f-4dd1-996b-0f12ba371fcc"
-					(reference "C9")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -7559,7 +7093,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c2d39dd-95f9-485e-9dcf-5ad12b8dff0a")
-		(property "Reference" "C17"
+		(property "Reference" "C13"
 			(at 60.96 134.62 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7621,7 +7155,7 @@
 		(instances
 			(project "Oculink_Dock"
 				(path "/337187c2-ce49-4477-82f4-42e83a825aec/8da0fd7f-2f9f-4dd1-996b-0f12ba371fcc"
-					(reference "C17")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -7639,7 +7173,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8156cd30-6473-4201-91ca-240214b71431")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR064"
 			(at 57.15 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -7699,7 +7233,7 @@
 		(instances
 			(project "Oculink_Dock"
 				(path "/337187c2-ce49-4477-82f4-42e83a825aec/8da0fd7f-2f9f-4dd1-996b-0f12ba371fcc"
-					(reference "#PWR041")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -7717,7 +7251,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82d364d0-cbe2-4d51-9e0f-bff4e4671616")
-		(property "Reference" "C11"
+		(property "Reference" "C26"
 			(at 252.73 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7781,7 +7315,7 @@
 		(instances
 			(project "Oculink_Dock"
 				(path "/337187c2-ce49-4477-82f4-42e83a825aec/8da0fd7f-2f9f-4dd1-996b-0f12ba371fcc"
-					(reference "C11")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -7798,7 +7332,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8a2b8bdc-e9dd-4de4-9e9a-bf0102ab0b6a")
-		(property "Reference" "R6"
+		(property "Reference" "R17"
 			(at 40.894 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7862,7 +7396,7 @@
 		(instances
 			(project "Oculink_Dock"
 				(path "/337187c2-ce49-4477-82f4-42e83a825aec/8da0fd7f-2f9f-4dd1-996b-0f12ba371fcc"
-					(reference "R6")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -7880,7 +7414,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a78a71f-7537-4a28-89d6-d647685bd3c6")
-		(property "Reference" "C4"
+		(property "Reference" "C19"
 			(at 165.1 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7944,7 +7478,7 @@
 		(instances
 			(project "Oculink_Dock"
 				(path "/337187c2-ce49-4477-82f4-42e83a825aec/8da0fd7f-2f9f-4dd1-996b-0f12ba371fcc"
-					(reference "C4")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -7962,7 +7496,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9339bdca-949e-4d75-84a0-913b758d7979")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR075"
 			(at 210.82 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -8022,7 +7556,7 @@
 		(instances
 			(project "Oculink_Dock"
 				(path "/337187c2-ce49-4477-82f4-42e83a825aec/8da0fd7f-2f9f-4dd1-996b-0f12ba371fcc"
-					(reference "#PWR034")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -8040,7 +7574,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5f827ab-3911-4013-bd47-4870e47d9230")
-		(property "Reference" "C2"
+		(property "Reference" "C17"
 			(at 133.35 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8104,7 +7638,7 @@
 		(instances
 			(project "Oculink_Dock"
 				(path "/337187c2-ce49-4477-82f4-42e83a825aec/8da0fd7f-2f9f-4dd1-996b-0f12ba371fcc"
-					(reference "C2")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -8122,7 +7656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a88b4934-edb5-4a43-962c-5c06ce5ebfa7")
-		(property "Reference" "C6"
+		(property "Reference" "C21"
 			(at 189.23 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8186,7 +7720,7 @@
 		(instances
 			(project "Oculink_Dock"
 				(path "/337187c2-ce49-4477-82f4-42e83a825aec/8da0fd7f-2f9f-4dd1-996b-0f12ba371fcc"
-					(reference "C6")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -8204,7 +7738,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a99746b1-e8f7-4edd-b3af-00cacb52610a")
-		(property "Reference" "C12"
+		(property "Reference" "C27"
 			(at 265.43 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8268,7 +7802,7 @@
 		(instances
 			(project "Oculink_Dock"
 				(path "/337187c2-ce49-4477-82f4-42e83a825aec/8da0fd7f-2f9f-4dd1-996b-0f12ba371fcc"
-					(reference "C12")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -8285,7 +7819,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "afa39d5a-0a0b-42f4-838e-2efa641d1e2e")
-		(property "Reference" "R4"
+		(property "Reference" "R16"
 			(at 36.83 68.072 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8347,7 +7881,7 @@
 		(instances
 			(project "Oculink_Dock"
 				(path "/337187c2-ce49-4477-82f4-42e83a825aec/8da0fd7f-2f9f-4dd1-996b-0f12ba371fcc"
-					(reference "R4")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -8365,7 +7899,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b30bf9cc-c006-425e-aac4-5efdaa910ad4")
-		(property "Reference" "J6"
+		(property "Reference" "J7"
 			(at 224.79 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8453,7 +7987,7 @@
 		(instances
 			(project "Oculink_Dock"
 				(path "/337187c2-ce49-4477-82f4-42e83a825aec/8da0fd7f-2f9f-4dd1-996b-0f12ba371fcc"
-					(reference "J6")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -8471,7 +8005,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7c0d63a-bb47-47a8-ac07-eafc298f6cc0")
-		(property "Reference" "C8"
+		(property "Reference" "C23"
 			(at 214.63 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8535,7 +8069,7 @@
 		(instances
 			(project "Oculink_Dock"
 				(path "/337187c2-ce49-4477-82f4-42e83a825aec/8da0fd7f-2f9f-4dd1-996b-0f12ba371fcc"
-					(reference "C8")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -8553,7 +8087,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc08a5c4-1a20-48c4-bbe5-3f2915d8ce73")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR063"
 			(at 57.15 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -8613,7 +8147,7 @@
 		(instances
 			(project "Oculink_Dock"
 				(path "/337187c2-ce49-4477-82f4-42e83a825aec/8da0fd7f-2f9f-4dd1-996b-0f12ba371fcc"
-					(reference "#PWR040")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -8631,7 +8165,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c43955bd-d60d-4ad3-a98c-3bd89d0da252")
-		(property "Reference" "R7"
+		(property "Reference" "R14"
 			(at 35.56 148.59 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8693,7 +8227,7 @@
 		(instances
 			(project "Oculink_Dock"
 				(path "/337187c2-ce49-4477-82f4-42e83a825aec/8da0fd7f-2f9f-4dd1-996b-0f12ba371fcc"
-					(reference "R7")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -8710,7 +8244,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c6eb1e7e-9d5e-4397-939c-8f5592316655")
-		(property "Reference" "R3"
+		(property "Reference" "R15"
 			(at 36.83 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8772,7 +8306,7 @@
 		(instances
 			(project "Oculink_Dock"
 				(path "/337187c2-ce49-4477-82f4-42e83a825aec/8da0fd7f-2f9f-4dd1-996b-0f12ba371fcc"
-					(reference "R3")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -8790,7 +8324,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4016c03-aff1-4367-88bb-64ee25e5af2c")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR068"
 			(at 76.2 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -8850,7 +8384,7 @@
 		(instances
 			(project "Oculink_Dock"
 				(path "/337187c2-ce49-4477-82f4-42e83a825aec/8da0fd7f-2f9f-4dd1-996b-0f12ba371fcc"
-					(reference "#PWR029")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -8948,7 +8482,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da31a1da-d19d-45cd-99cf-50eaf91a7dd6")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR066"
 			(at 71.12 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -9009,7 +8543,7 @@
 		(instances
 			(project "Oculink_Dock"
 				(path "/337187c2-ce49-4477-82f4-42e83a825aec/8da0fd7f-2f9f-4dd1-996b-0f12ba371fcc"
-					(reference "#PWR044")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -9027,7 +8561,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db262214-f16c-41c7-9aae-91ec52bba6d5")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR074"
 			(at 210.82 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -9087,7 +8621,7 @@
 		(instances
 			(project "Oculink_Dock"
 				(path "/337187c2-ce49-4477-82f4-42e83a825aec/8da0fd7f-2f9f-4dd1-996b-0f12ba371fcc"
-					(reference "#PWR033")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -9105,7 +8639,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcd19489-5914-4b77-88f0-f2360e3e0189")
-		(property "Reference" "J7"
+		(property "Reference" "J8"
 			(at 252.73 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9193,7 +8727,7 @@
 		(instances
 			(project "Oculink_Dock"
 				(path "/337187c2-ce49-4477-82f4-42e83a825aec/8da0fd7f-2f9f-4dd1-996b-0f12ba371fcc"
-					(reference "J7")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -9211,7 +8745,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e04ba1d4-3e73-4d79-82d9-fbd8f87dd6d3")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR070"
 			(at 129.54 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -9271,7 +8805,7 @@
 		(instances
 			(project "Oculink_Dock"
 				(path "/337187c2-ce49-4477-82f4-42e83a825aec/8da0fd7f-2f9f-4dd1-996b-0f12ba371fcc"
-					(reference "#PWR031")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -9399,7 +8933,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f077fe32-1812-43a2-beca-96da99d261f6")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR069"
 			(at 116.84 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -9459,7 +8993,7 @@
 		(instances
 			(project "Oculink_Dock"
 				(path "/337187c2-ce49-4477-82f4-42e83a825aec/8da0fd7f-2f9f-4dd1-996b-0f12ba371fcc"
-					(reference "#PWR039")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
