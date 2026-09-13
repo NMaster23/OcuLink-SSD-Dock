@@ -847,6 +847,222 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x04"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x10"
 			(pin_names
 				(offset 1.016)
@@ -3943,30 +4159,6 @@
 		(color 0 0 0 0)
 		(uuid "fa931167-7606-4e4e-8969-e3a0f99cc58f")
 	)
-	(no_connect
-		(at 217.17 121.92)
-		(uuid "2dbd3343-77a7-479b-bb84-72eec3d5833c")
-	)
-	(no_connect
-		(at 217.17 127)
-		(uuid "2fa9c09f-ee55-4f24-a7d6-8d389dc19d31")
-	)
-	(no_connect
-		(at 217.17 119.38)
-		(uuid "3ac68fc2-e33a-42e0-bc0e-9cab774e4515")
-	)
-	(no_connect
-		(at 217.17 129.54)
-		(uuid "da603ba3-9c45-4c24-8174-f2092434d95b")
-	)
-	(no_connect
-		(at 217.17 116.84)
-		(uuid "e152ebbd-23cf-4232-a010-97579013649e")
-	)
-	(no_connect
-		(at 217.17 124.46)
-		(uuid "ff82d6b2-acd9-48b8-8c9b-2b99d1ef9a24")
-	)
 	(wire
 		(pts
 			(xy 129.54 80.01) (xy 142.24 80.01)
@@ -4905,7 +5097,7 @@
 	)
 	(global_label "G18"
 		(shape bidirectional)
-		(at 217.17 137.16 180)
+		(at 214.63 132.08 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4915,7 +5107,7 @@
 		)
 		(uuid "4bdf74cc-3d60-46d9-a1b4-30fbec1dde3a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.3845 137.16 0)
+			(at 206.8445 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5529,7 +5721,7 @@
 	)
 	(global_label "G8"
 		(shape bidirectional)
-		(at 217.17 134.62 180)
+		(at 214.63 129.54 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5539,7 +5731,7 @@
 		)
 		(uuid "a247b221-eda1-45a9-b940-07f0b7166c3b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.594 134.62 0)
+			(at 208.054 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5697,7 +5889,7 @@
 	)
 	(global_label "G19"
 		(shape bidirectional)
-		(at 217.17 139.7 180)
+		(at 214.63 134.62 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5707,7 +5899,7 @@
 		)
 		(uuid "bd076808-a842-4102-8196-b1557fb39b7c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.3845 139.7 0)
+			(at 206.8445 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5937,7 +6129,7 @@
 	)
 	(global_label "G7"
 		(shape bidirectional)
-		(at 217.17 132.08 180)
+		(at 214.63 127 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5947,7 +6139,7 @@
 		)
 		(uuid "e79a4337-bf8c-428e-809c-f353b60dcd6e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.594 132.08 0)
+			(at 208.054 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6137,7 +6329,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Oscillator:Oscillator_DIP-14"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 209.55 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -6298,7 +6490,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 124.46 152.7048 0)
 			(hide yes)
 			(show_name no)
@@ -6539,7 +6731,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 237.1852 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -6619,7 +6811,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 167.64 32.258 90)
 			(hide yes)
 			(show_name no)
@@ -6857,7 +7049,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 173.6852 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -6939,7 +7131,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 119.0752 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -7061,6 +7253,94 @@
 			(project "Oculink_Dock"
 				(path "/337187c2-ce49-4477-82f4-42e83a825aec/8da0fd7f-2f9f-4dd1-996b-0f12ba371fcc"
 					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 219.71 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c92eb58-364d-4c59-9370-288eb1921544")
+		(property "Reference" "J10"
+			(at 222.25 129.5399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 222.25 132.0799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 219.71 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 219.71 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0376b451-9088-432b-945c-08ba3af4f62f")
+		)
+		(pin "4"
+			(uuid "3787fd7b-551a-49a7-a41e-20f5760515e8")
+		)
+		(pin "1"
+			(uuid "078cb8f9-b140-41d0-b2fa-9e865ac12e0f")
+		)
+		(pin "3"
+			(uuid "e4066662-2dd7-4c41-9f8f-ac3593011aed")
+		)
+		(instances
+			(project "Oculink_Dock"
+				(path "/337187c2-ce49-4477-82f4-42e83a825aec/8da0fd7f-2f9f-4dd1-996b-0f12ba371fcc"
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -7762,7 +8042,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 199.0852 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -7844,7 +8124,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 143.2052 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -8024,7 +8304,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 144.78 155.448 90)
 			(hide yes)
 			(show_name no)
@@ -8106,7 +8386,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 224.4852 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -8186,7 +8466,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 64.77 141.2748 0)
 			(hide yes)
 			(show_name no)
@@ -8504,7 +8784,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 249.8852 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -8585,7 +8865,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 37.592 151.13 90)
 			(hide yes)
 			(show_name no)
@@ -8667,7 +8947,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 162.2552 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -8827,7 +9107,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 130.5052 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -8909,7 +9189,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 186.3852 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -8991,7 +9271,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 262.5852 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -9120,86 +9400,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 36.83 48.26 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ad869962-bd75-4d60-bc58-8374d3ec8ae5")
-		(property "Reference" "C28"
-			(at 36.83 40.64 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 36.83 43.18 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 40.64 47.2948 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 36.83 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b0d96bc6-927e-4abc-b867-f43e13b5e05c")
-		)
-		(pin "2"
-			(uuid "f35e54a6-9227-486e-8e45-cb116db1e597")
-		)
-		(instances
-			(project "Oculink_Dock"
-				(path "/337187c2-ce49-4477-82f4-42e83a825aec/8da0fd7f-2f9f-4dd1-996b-0f12ba371fcc"
-					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 36.83 66.04 90)
 		(unit 1)
@@ -9230,7 +9430,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 36.83 67.818 90)
 			(hide yes)
 			(show_name no)
@@ -9279,112 +9479,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x10")
-		(at 222.25 127 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b30bf9cc-c006-425e-aac4-5efdaa910ad4")
-		(property "Reference" "J7"
-			(at 224.79 126.9999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x10"
-			(at 224.79 129.5399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 222.25 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 222.25 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 222.25 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "8"
-			(uuid "9de619e3-b6b5-4e08-b76c-24448167386f")
-		)
-		(pin "7"
-			(uuid "1fc3b532-8848-4ece-9bbd-c8e93fc65a81")
-		)
-		(pin "9"
-			(uuid "4f35ef98-37b8-4611-ba66-ec82de5d1036")
-		)
-		(pin "10"
-			(uuid "7bffd79b-0575-42a9-b6ed-dd048b0c66a9")
-		)
-		(pin "6"
-			(uuid "bb6af719-bebe-49f8-ac7f-6bab0c7dcd01")
-		)
-		(pin "3"
-			(uuid "ab528a9a-bee5-4d39-82c8-4442078a35d0")
-		)
-		(pin "4"
-			(uuid "19966583-640f-411d-8eff-c04dda153670")
-		)
-		(pin "5"
-			(uuid "524fc4ec-753a-474e-b50a-a1e4bd79cbb9")
-		)
-		(pin "1"
-			(uuid "052f7b88-f6d2-4a01-b6c5-fba77d9de189")
-		)
-		(pin "2"
-			(uuid "b5102fa2-962b-412e-bebc-2e026b37d485")
-		)
-		(instances
-			(project "Oculink_Dock"
-				(path "/337187c2-ce49-4477-82f4-42e83a825aec/8da0fd7f-2f9f-4dd1-996b-0f12ba371fcc"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 210.82 83.82 0)
 		(unit 1)
@@ -9418,7 +9512,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 211.7852 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -9576,7 +9670,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 35.56 156.718 90)
 			(hide yes)
 			(show_name no)
@@ -9655,7 +9749,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 36.83 65.278 90)
 			(hide yes)
 			(show_name no)
@@ -9813,7 +9907,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 124.46 140.0048 0)
 			(hide yes)
 			(show_name no)
@@ -9863,7 +9957,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 33.02 48.26 180)
+		(at 40.64 48.26 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9874,7 +9968,7 @@
 		(fields_autoplaced yes)
 		(uuid "d93d7019-a9f5-4314-af60-3b66ca26202d")
 		(property "Reference" "#PWR084"
-			(at 33.02 41.91 0)
+			(at 34.29 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9885,7 +9979,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 33.02 43.18 0)
+			(at 39.37 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9895,7 +9989,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 48.26 0)
+			(at 40.64 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9906,7 +10000,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 48.26 0)
+			(at 40.64 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9917,7 +10011,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 48.26 0)
+			(at 40.64 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10130,7 +10224,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical"
 			(at 250.19 127 0)
 			(hide yes)
 			(show_name no)
@@ -10500,7 +10594,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 167.64 31.242 90)
 			(hide yes)
 			(show_name no)
@@ -10658,7 +10752,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 25.4 57.658 90)
 			(hide yes)
 			(show_name no)
