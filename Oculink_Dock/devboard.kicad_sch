@@ -6570,7 +6570,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 26.67 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -9351,7 +9351,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-he:SW_MX_HE_0deg_1u"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 24.13 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -10486,7 +10486,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-20_W7.62mm"
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 137.16 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -10832,7 +10832,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:WDFN-10-1EP_3x3mm_P0.5mm_EP1.8x2.5mm"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 152.4 40.64 0)
 			(hide yes)
 			(show_name no)
