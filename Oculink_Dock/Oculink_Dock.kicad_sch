@@ -6941,6 +6941,12 @@
 		(uuid "7437aa75-f52f-468e-b060-b010dc24395d")
 	)
 	(junction
+		(at 273.05 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "758f7e1f-02da-4a68-8786-d3ae8d05bf10")
+	)
+	(junction
 		(at 190.5 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6963,6 +6969,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "97f2afb1-0238-4595-a2e7-cdbc88566d69")
+	)
+	(junction
+		(at 363.22 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99671cfc-6619-4f7e-b99d-8a04a30cc0b0")
 	)
 	(junction
 		(at 190.5 158.75)
@@ -7041,6 +7053,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7279037-cc34-476f-9c14-127c69ce9300")
+	)
+	(junction
+		(at 273.05 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d954547d-8b5a-423c-b320-e810ca726d89")
 	)
 	(junction
 		(at 303.53 49.53)
@@ -7172,6 +7190,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 82.55) (xy 279.4 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07c976b4-7320-409c-921d-6f5fc5104fc3")
+	)
+	(wire
+		(pts
 			(xy 49.53 129.54) (xy 49.53 133.35)
 		)
 		(stroke
@@ -7199,6 +7227,16 @@
 			(type default)
 		)
 		(uuid "0c814e1e-229c-4ec5-a53a-0ebc6e1cc91a")
+	)
+	(wire
+		(pts
+			(xy 266.7 90.17) (xy 273.05 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0da8c955-ce05-4429-b538-e87597392155")
 	)
 	(wire
 		(pts
@@ -7562,6 +7600,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 90.17) (xy 279.4 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54502aad-c687-4a64-b23b-b7b36a8e00d9")
+	)
+	(wire
+		(pts
 			(xy 121.92 99.06) (xy 121.92 101.6)
 		)
 		(stroke
@@ -7569,6 +7617,16 @@
 			(type default)
 		)
 		(uuid "548d90b8-e695-44c3-b4e2-530d4de5d8c3")
+	)
+	(wire
+		(pts
+			(xy 367.03 81.28) (xy 363.22 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d232e7f-1c45-4c86-8fb1-76169e744d5a")
 	)
 	(wire
 		(pts
@@ -7852,6 +7910,16 @@
 	)
 	(wire
 		(pts
+			(xy 363.22 81.28) (xy 360.68 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8667a965-c363-491b-be27-8b02b6e26926")
+	)
+	(wire
+		(pts
 			(xy 360.68 88.9) (xy 363.22 88.9)
 		)
 		(stroke
@@ -7879,6 +7947,16 @@
 			(type default)
 		)
 		(uuid "8b8712ae-0b91-4bcd-a2af-260915f5cd0d")
+	)
+	(wire
+		(pts
+			(xy 273.05 90.17) (xy 273.05 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c5eb279-6f2b-4ea1-8975-b1c129ae7e39")
 	)
 	(wire
 		(pts
@@ -8009,6 +8087,16 @@
 			(type default)
 		)
 		(uuid "a1afd3ad-8ab7-4801-a7fb-69d7ce1d266a")
+	)
+	(wire
+		(pts
+			(xy 273.05 80.01) (xy 273.05 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2652c7d-a5a4-4aaa-b76f-70b6479f17c8")
 	)
 	(wire
 		(pts
@@ -8499,6 +8587,16 @@
 			(type default)
 		)
 		(uuid "f9100073-361a-4942-9bb8-a85307d3eb72")
+	)
+	(wire
+		(pts
+			(xy 266.7 82.55) (xy 273.05 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f95a0c04-a5ec-47ca-8585-3f6f3da4db57")
 	)
 	(wire
 		(pts
@@ -10298,7 +10396,7 @@
 	)
 	(global_label "CADDY_3V3"
 		(shape output)
-		(at 360.68 81.28 0)
+		(at 367.03 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10308,7 +10406,7 @@
 		)
 		(uuid "d97f9051-95a3-4504-806c-5a078d0d7e8a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 374.1276 81.28 0)
+			(at 380.4776 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10559,7 +10657,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Schottky"
+		(property "Value" "SS34"
 			(at 273.05 54.2924 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11223,6 +11321,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 273.05 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14a0ab66-ea4c-4e86-90af-8bdf66818d96")
+		(property "Reference" "#PWR0102"
+			(at 273.05 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 273.05 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 273.05 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a6bf2895-dad7-4987-a98f-5ac203bf4cd9")
+		)
+		(instances
+			(project "Oculink_Dock"
+				(path "/337187c2-ce49-4477-82f4-42e83a825aec"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 63.5 86.36 90)
 		(unit 1)
@@ -11323,7 +11499,7 @@
 				)
 			)
 		)
-		(property "Value" "ERF8-025-XX-X-D-RA-L-XX"
+		(property "Value" "ERF8-025-05.0-L-DV-L-TR"
 			(at 50.8 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13023,7 +13199,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Zener"
+		(property "Value" "SMAJ15A"
 			(at 169.926 54.864 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14661,6 +14837,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 266.7 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54162ced-83fe-4360-aafa-b73c5e384403")
+		(property "Reference" "C32"
+			(at 270.51 85.0899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 270.51 87.6299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.6652 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 266.7 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3a765c2a-25a4-408f-87c6-1ab3ef2fd4ae")
+		)
+		(pin "2"
+			(uuid "3e92b942-ed9c-414d-9d32-574c7317bf02")
+		)
+		(instances
+			(project "Oculink_Dock"
+				(path "/337187c2-ce49-4477-82f4-42e83a825aec"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 80.01 26.67 270)
 		(unit 1)
@@ -14762,7 +15020,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15uF"
+		(property "Value" "22uF"
 			(at 271.78 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17022,6 +17280,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 273.05 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8520ae05-85c2-4532-bac3-53d65825a5c4")
+		(property "Reference" "#PWR0103"
+			(at 273.05 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 273.05 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 273.05 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f6dcfa12-c923-496d-a991-7f24a886f77d")
+		)
+		(instances
+			(project "Oculink_Dock"
+				(path "/337187c2-ce49-4477-82f4-42e83a825aec"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 260.35 118.11 0)
 		(unit 1)
 		(body_style 1)
@@ -17367,7 +17703,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "470"
 			(at 147.32 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19720,6 +20056,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 363.22 73.66 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "adf25bc0-2e28-4edc-af28-9a769243e75d")
+		(property "Reference" "#PWR0101"
+			(at 363.22 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 363.22 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 363.22 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 363.22 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 363.22 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a1307670-7653-4c6c-91ff-053bbb0b0ac6")
+		)
+		(instances
+			(project "Oculink_Dock"
+				(path "/337187c2-ce49-4477-82f4-42e83a825aec"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 313.69 83.82 270)
 		(unit 1)
 		(body_style 1)
@@ -19819,7 +20233,7 @@
 				)
 			)
 		)
-		(property "Value" "Polyfuse"
+		(property "Value" "500mA"
 			(at 29.21 147.32 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20536,7 +20950,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "470"
 			(at 152.4 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21667,7 +22081,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15uF"
+		(property "Value" "22uF"
 			(at 269.24 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22361,6 +22775,88 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 363.22 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efa7bff9-76b9-4470-9a45-320afa8dcb35")
+		(property "Reference" "C31"
+			(at 367.03 76.1999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 367.03 78.7399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 364.1852 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 363.22 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 363.22 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b383f9ef-74dc-4d46-b4a7-9dd1f630b23b")
+		)
+		(pin "2"
+			(uuid "b092eac5-6568-4f41-8cb2-6d28fc3fa774")
+		)
+		(instances
+			(project "Oculink_Dock"
+				(path "/337187c2-ce49-4477-82f4-42e83a825aec"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 114.3 171.45 0)
 		(unit 1)
 		(body_style 1)
@@ -22594,6 +23090,88 @@
 			(project "Oculink_Dock"
 				(path "/337187c2-ce49-4477-82f4-42e83a825aec"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 279.4 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f365980a-6346-4ce4-9f8c-9b4bb8e9472b")
+		(property "Reference" "C33"
+			(at 283.21 85.0899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 283.21 87.6299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 280.3652 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 279.4 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "816b656f-b81e-4c68-95f6-654fefa679d9")
+		)
+		(pin "2"
+			(uuid "7f08f754-a173-4a7b-8db9-5508a3b3194c")
+		)
+		(instances
+			(project "Oculink_Dock"
+				(path "/337187c2-ce49-4477-82f4-42e83a825aec"
+					(reference "C33")
 					(unit 1)
 				)
 			)
